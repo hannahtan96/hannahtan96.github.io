@@ -15,7 +15,7 @@
 				<div class="navbar-container">
 					<h1 class="no-margin">Hannah's Personal Website</h1>
 					<div class="menu-icon">
-						<input id="menu" class="no-margin" type="checkbox">
+						<input id="menu" class="no-margin" type="checkbox" autocomplete="off">
 						<label for="menu"></label>
 						<div class="hamburger-menu no-margin">
 							<ul class="menu-items">
@@ -43,13 +43,14 @@
 				
 				</div>
 				<div class="filter-box">
-					<select class="white">
-						<option>Filter</option>
-						<option>HTML/CSS</option>
-						<option>API</option>
-						<option>SQL</option>
-						<option>CS Fundamentals</option>
-					</select>
+					<label for="touch"><span class="white border">Filter by Topic:</span></label>               
+					<input type="checkbox" id="touch"> 
+					<ul class="slide">
+						<li><a class="no-style" href="">HTML/CSS</a></li> 
+						<li><a class="no-style" href="">Database</a></li>
+						<li><a class="no-style" href="">CS Fundamentals</a></li>
+						<li><a class="no-style" href="">API</a></li>
+					</ul>
 				</div>
 			</div>
 
@@ -69,7 +70,7 @@
               <div class="card-github">
                 <div class="card-github-details">
                   <p class="card-github-desc">Link to my repo:</p>
-									<a href="" class="btn">Github</a>
+									<a href="https://github.com/hannahtan96/task-list-api" class="btn">Github</a>
                 </div>
               </div>
             </div>
@@ -77,18 +78,18 @@
 
 					<div class="card">
             <div class="card__side card__side--front">
-              <h4 class="card-heading">2022 | BACKEND </h4>
-							<h3 class="card-title">TASK LIST</h3>
+              <h4 class="card-heading">2022 | FRONT END </h4>
+							<h3 class="card-title">PERSONAL SITE</h3>
               <div class="card__details">
-								<p>Database management (one-to-one, one-to-many), CRUD methods, Slack API, Heroku deployment</p>
-								<p class="language">Python, SQLAlchemy</p>
+								<p>Semantic HTML, Flexbox, Grid</p>
+								<p class="language">HTML, CSS</p>
               </div>
             </div>
             <div class="card__side card__side--back card__side--back-2">
               <div class="card-github">
                 <div class="card-github-details">
                   <p class="card-github-desc">Link to my repo:</p>
-									<a href="" class="btn">Github</a>
+									<a href="https://github.com/hannahtan96/personal-portfolio-site" class="btn">Github</a>
                 </div>
               </div>
             </div>
@@ -97,9 +98,9 @@
 					<div class="card">
             <div class="card__side card__side--front">
               <h4 class="card-heading">2022 | BACKEND </h4>
-							<h3 class="card-title">TASK LIST</h3>
+							<h3 class="card-title">BOOK REVIEW</h3>
               <div class="card__details">
-								<p>Database management (one-to-one, one-to-many), CRUD methods, Slack API, Heroku deployment</p>
+								<p>Database management (one-to-one, one-to-many), CRUD methods, Heroku deployment</p>
 								<p class="language">Python, SQLAlchemy</p>
               </div>
             </div>
@@ -107,7 +108,7 @@
               <div class="card-github">
                 <div class="card-github-details">
                   <p class="card-github-desc">Link to my repo:</p>
-									<a href="" class="btn">Github</a>
+									<a href="https://github.com/hannahtan96/book-review-site" class="btn">Github</a>
                 </div>
               </div>
             </div>
@@ -115,11 +116,11 @@
 
 					<div class="card">
             <div class="card__side card__side--front">
-              <h4 class="card-heading">2022 | BACKEND </h4>
-							<h3 class="card-title">TASK LIST</h3>
+              <h4 class="card-heading">2022 | CS FUNDAMENTALS </h4>
+							<h3 class="card-title">VIEWING PARTY</h3>
               <div class="card__details">
-								<p>Database management (one-to-one, one-to-many), CRUD methods, Slack API, Heroku deployment</p>
-								<p class="language">Python, SQLAlchemy</p>
+								<p>Conditional logic, lists, dictionaries, nested data structures</p>
+								<p class="language">Python</p>
               </div>
             </div>
             <div class="card__side card__side--back card__side--back-1">
@@ -134,18 +135,18 @@
 
 					<div class="card">
             <div class="card__side card__side--front">
-              <h4 class="card-heading">2022 | BACKEND </h4>
-							<h3 class="card-title">TASK LIST</h3>
+              <h4 class="card-heading">2022 | OBJECT ORIENTED PROGRAMMING </h4>
+							<h3 class="card-title">SWAP MEET</h3>
               <div class="card__details">
-								<p>Database management (one-to-one, one-to-many), CRUD methods, Slack API, Heroku deployment</p>
-								<p class="language">Python, SQLAlchemy</p>
+								<p>Inheritance, composition, testing</p>
+								<p class="language">Python</p>
               </div>
             </div>
             <div class="card__side card__side--back card__side--back-2">
               <div class="card-github">
                 <div class="card-github-details">
                   <p class="card-github-desc">Link to my repo:</p>
-									<a href="" class="btn">Github</a>
+									<a href="https://github.com/hannahtan96/swap-meet" class="btn">Github</a>
                 </div>
               </div>
             </div>
@@ -153,18 +154,19 @@
 
 					<div class="card">
             <div class="card__side card__side--front">
-              <h4 class="card-heading">2022 | BACKEND </h4>
-							<h3 class="card-title">TASK LIST</h3>
+              <h4 class="card-heading">2022 | HACKATHON </h4>
+							<h3 class="card-title">BELLEARBRE</h3>
               <div class="card__details">
-								<p>Database management (one-to-one, one-to-many), CRUD methods, Slack API, Heroku deployment</p>
-								<p class="language">Python, SQLAlchemy</p>
+								<p>A mobile-first application that tracks users' physical movement within Bellevue and incorporates community and environmental features to encourage engagement with the city.
+								</p>
+								<p class="language"></p>
               </div>
             </div>
             <div class="card__side card__side--back card__side--back-3">
               <div class="card-github">
                 <div class="card-github-details">
-                  <p class="card-github-desc">Link to my repo:</p>
-									<a href="" class="btn">Github</a>
+                  <p class="card-github-desc">Link to the final presentation:</p>
+									<a href="https://drive.google.com/file/d/1cM_bBvLLH_lLaf-0-EdCo6JKrOOP9dvz/view?usp=sharing" class="btn">PPT</a>
                 </div>
               </div>
             </div>
