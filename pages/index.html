@@ -4,15 +4,32 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
+		<link rel="stylesheet" type="text/css" href="../stylesheets/index-style.css" />
 		<!-- <title>Document</title> -->
 	</head>
+
 	<body>
-		<h1>Document</h1>
-		<div class="container main-block">
-			<section class="col main">
+		<div class="container">
+			<nav class="navbar">
+				<div class="navbar-container">
+					<h1>Hannah's Personal Website</h1>
+					<div class="menu-icon">
+						<input id="menu" type="checkbox">
+						<label for="menu"></label>
+						<div class="hamburger-menu">
+							<ul class="menu-items">
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="about.html">ABOUT ME</a></li>
+								<li><a href="portfolio.html">MY PORTFOLIO</a></li>
+								<li><a href="favorites.html">MY FAVORITES</a></li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+			</nav>
+			<main class="main-block">
 				<div class="bio-block">
-					<h1>Hannah Tan</h1>
+					<h1 class="my-name">Hannah Tan</h1>
 					<div class="bio-title">Student at <a href="https://www.htgc.com/">Ada Developers Academy</a></div>
 					<div class="bio-desc">
 						In September 2022, I packed up my bags and flew 2,500 miles from Boston, MA to Seattle, WA to embarked on a new adventure 
@@ -26,20 +43,39 @@
 						Come along for the journey!
 					</div>
 				</div>
-				<div class="container contact-block">
-					<p class="connect">CONNECT WITH ME:</p>
-						<ul class="social-icons">
-							<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-							<li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
+				<div class="middle-image">
+					<div class="middle-image-text">
+						<ul>
+							<li>
+								<a href="about.html">
+									<span>01</span>
+									<span class="hyphen"></span>
+									<span>ABOUT ME</span>
+								</a>
+							</li>
+							<li><a href="portfolio.html">
+									<span>02</span>
+									<span class="hyphen"></span>
+									<span>MY PORTFOLIO</span>
+								</a>
+							</li>
+							<li><a href="favorites.html">
+									<span>03</span>
+									<span class="hyphen"></span>
+									<span>MY FAVORITES</span>
+								</a>
+							</li>
+							<li><a href="">
+								<span>04</span>
+								<span class="hyphen"></span>
+								<span>CONTACT ME</span>
+								</a>
+							</li>
 						</ul>
+					</div>
+					<img src="../assets/Wide_angle_tetons.jpeg">
 				</div>
-			</section>
-				
-			</section>
+			</main>
 			<aside class="col sidebar">
 				<div class="card">
 					<div class="card-content">
@@ -112,6 +148,17 @@
 					</div>
 				</div>
 			</aside>
+			<article class="contact-block">
+				<ul class="social-icons">
+					<li><div class="connect">CONNECT WITH ME:</div></li>
+					<li><a href="mailto:hannahtan96@gmail.com" class="social-icon"> <i class="fa fa-inbox"></i></a></li>
+					<li><a href="tel: 617-606-1826" class="social-icon"> <i class="fa fa-phone"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/hannah-tan/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/hannahtan96" class="social-icon"> <i class="fa fa-github"></i></a></li>
+				</ul>
+			</article>
 		</div>
 	</body>
 
