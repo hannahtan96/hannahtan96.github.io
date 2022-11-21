@@ -55,6 +55,9 @@ nav {
 .no-padding {
 	padding: 0;
 }
+.center {
+	margin:0px auto;
+}
 .bg-ice {
 	background-color: var(--ice-cold);
 }
@@ -194,6 +197,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	padding-left: 0;
+	gap: 10px;
 }
 
 .contact-block .social-icons li {
@@ -210,44 +214,59 @@ nav {
 	height: 10px;
 }
 
-.contact-block .fa-facebook {
-	padding:10px 14px;
+
+.fa-inbox {
+	border-radius: 60%;
+	padding: 8px 8px;
 	background-color: #322f30;
+	box-shadow: 1px 1.02px 1.75px white;
+}
+.fa-inbox:hover {
+	background-color: #c71610;
+}
+.fa-phone {
+	border-radius: 60%;
+	padding: 8px 8px;
+	background-color: #322f30;
+	box-shadow: 1px 1.02px 1.75px white;
+}
+.fa-phone:hover {
+	background-color: #e1ad01;
+}
+.contact-block .fa-facebook {
+	border-radius: 60%;
+	padding: 8px 8px;
+	padding-left: 10px;
+	background-color: #322f30;
+	box-shadow: 1px 1.02px 1.75px white;
 }
 .fa-facebook:hover {
 	background-color: #3d5b99;
-}
-.fa-inbox {
-	padding:10px 14px;
-	background-color: #322f30;
-}
-.fa-inbox:hover {
-	background-color: #e64a41;
-}
-.fa-phone {
-	padding:10px 14px;
-	background-color: #322f30;
-}
-.fa-phone:hover {
-	background-color: #198219;
+	box-shadow: none;
 }
 .fa-instagram {
-	padding:10px 14px;
+	border-radius: 60%;
+	padding: 8px 8px;
 	background-color: #322f30;
+	box-shadow: 1px 1.02px 1.75px white;
 }
 .fa-instagram:hover {
 	background-color: #C13584;
 }
 .fa-linkedin {
-	padding:10px 14px;
+	border-radius: 60%;
+	padding: 8px 8px;
 	background-color: #322f30;
+	box-shadow: 1px 1.02px 1.75px white;
 }
 .fa-linkedin:hover {
 	background-color: #0073a4;
 }
 .fa-github {
-	padding:10px 14px;
+	border-radius: 60%;
+	padding: 8px 8px;
 	background-color: #322f30;
+	box-shadow: 1px 1.02px 1.75px white;
 }
 .fa-github:hover {
 	background-color: #5a32a3;

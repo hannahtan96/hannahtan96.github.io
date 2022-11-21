@@ -1,7 +1,7 @@
 /* GRID LAYOUT */
 .container {
 	display: grid;
-	grid-template: .5fr 5fr .5fr / 2fr 1fr;
+	grid-template: 75px auto 60px / 2fr 1fr;
 	height: 100%;
 	width: 100vw;
 	overflow: hidden;
@@ -140,7 +140,7 @@ article {
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	overflow: auto;
+	overflow: scroll;
 }
 
 .container .sidebar .card {

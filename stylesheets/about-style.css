@@ -1,7 +1,7 @@
 /* GRID LAYOUT */
 .container {
 	display: grid;
-	grid-template: .1fr .1fr .4fr .1fr / 1fr;
+	grid-template: 75px auto auto 60px / 1fr;
 	height: 100%;
 }
 
@@ -125,7 +125,7 @@ article {
 	position: relative;
 	color: gray;
 	font-size: 16px;
-	font-weight: 150;
+	font-weight: 250;
 	line-height: 18px;
 	text-align: justify;
 	text-justify: inter-word;

@@ -1,7 +1,7 @@
 /* GRID LAYOUT */
 .container {
 	display: grid;
-	grid-template: .1fr 1fr 4fr .1fr / 1fr;
+	grid-template: 75px 175px auto 60px / 1fr;
 	height: 100%;
 }
 
@@ -92,7 +92,7 @@ article {
 	justify-content: center;
 	align-items: center;
 	padding: 15px;
-	font-size: 0;
+	font-size: 0px;
 	background: var(--ice-cold);
 	box-sizing: border-box;
 	border: .5px solid white;
