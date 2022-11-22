@@ -190,6 +190,13 @@ nav {
 .contact-block {
 	font-family: "Lato", sans-serif;
 	font-size: 12px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.contact-block .connect {
+	font-size: 18px;
+	padding-right: 10px;
 }
 
 .contact-block .social-icons {
@@ -204,14 +211,11 @@ nav {
 	display: inline;
 }
 
-.contact-block .social-icons li .connect {
-	font-size: 18px;
-}
-
 .contact-block .fa {
 	transition: .5s;
 	width: 10px;
 	height: 10px;
+	color: white;
 }
 
 
@@ -274,7 +278,7 @@ nav {
 
 
 /* FOOTER */
-footer > div {
+footer {
 	color: gray;
 	padding: 0 10px;
 	font-size: smaller;

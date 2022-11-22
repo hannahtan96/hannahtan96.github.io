@@ -39,9 +39,9 @@ article {
 	max-height: 100%;
 }
 
-.bio-block h1 {
-	font-size: 24px;
+.bio-block .my-name {
 	font-size: 50px;
+	font-weight: 900;
 }
 
 .bio-block .bio-title {
