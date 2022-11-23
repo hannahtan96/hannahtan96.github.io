@@ -83,7 +83,7 @@ article {
 .middle-image img {
 	position: absolute;
 	left: -30px;
-	min-height: 425px;
+	height: 425px;
 	width: auto;
 	opacity: .4;
 	overflow: hidden;
@@ -130,6 +130,8 @@ article {
 	padding-right: 1.7em;
 	font-size: initial;
 }
+
+
 
 
 /* RIGHT SIDE OF PAGE  */
