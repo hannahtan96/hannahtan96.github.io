@@ -36,7 +36,7 @@ article {
 /* LEFT SIDE OF PAGE  */
 .bio-block {
 	line-height: normal;
-	max-height: 100%;
+	max-height: 600px;
 }
 
 .bio-block .my-name {
@@ -65,7 +65,8 @@ article {
 	position: relative;
 	text-align: center;
 	padding: 50px;
-	padding-left: 0px;
+	overflow: hidden;
+	max-height: 450px;
 }
 
 .middle-image-text {
@@ -83,7 +84,7 @@ article {
 .middle-image img {
 	position: absolute;
 	left: -30px;
-	height: 425px;
+	min-height: 425px;
 	width: auto;
 	opacity: .4;
 	overflow: hidden;
@@ -130,8 +131,6 @@ article {
 	padding-right: 1.7em;
 	font-size: initial;
 }
-
-
 
 
 /* RIGHT SIDE OF PAGE  */
